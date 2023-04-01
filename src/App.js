@@ -14,7 +14,7 @@ import { faTrash, faArrowsUpDown, faListCheck, faCookie, faCookieBite , faCow ,f
 
 library.add(faTrash, faArrowsUpDown, faListCheck, faCookie, faCookieBite, faCow, faCarrot, faFish, faUtensils, faCartShopping, faFaceMeh, faFaceSmileWink);
 
-const baseURL = "https://grocer-Me-api.onrender.com"
+const baseURL = "http://grocer-Me-api.onrender.com"
 //const baseURL = 'http://localhost:4000"
 
 function App() {

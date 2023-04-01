@@ -23,7 +23,7 @@ function Home() {
   const [isBuyOpen, setisBuyOpen] = useState(false);
   const [isUseOpen, setisUseOpen] = useState(false);
 
-  const baseURL = "https://grocer-me-api.onrender.com"
+  const baseURL = "http://grocer-me-api.onrender.com"
   //const baseURL = 'http://localhost:4000"
 
 

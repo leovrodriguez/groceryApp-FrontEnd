@@ -13,7 +13,7 @@ function Register() {
 
   const user = useContext(UserContext);
 
-  const baseURL = "http://grocer-Me-api.onrender.com"
+  const baseURL = "https://grocer-Me-api.onrender.com"
   //const baseURL = 'http://localhost:4000"
 
   /* Upon form submission attempt to register user with provided information */

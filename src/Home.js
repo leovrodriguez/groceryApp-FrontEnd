@@ -23,6 +23,10 @@ function Home() {
   const [isBuyOpen, setisBuyOpen] = useState(false);
   const [isUseOpen, setisUseOpen] = useState(false);
 
+  const baseURL = "https://grocer-me-api.onrender.com"
+  //const baseURL = 'http://localhost:4000"
+
+
   /* Load todos upon page open */
   useEffect(() => {
     axios.get(baseURL + '/todos', { withCredentials: true })
@@ -88,9 +92,6 @@ function Home() {
         });
   }
   /* Note - prior two functions are redundant but I plan to refactor into seperate todo models so I am keeping this structure */
-  
-  const baseURL = "https://grocer-Me-api.onrender.com"
-  //const baseURL = 'http://localhost:4000"
 
   /** Handle the deleting of state changes and making the local changes reflective */
   function deleteTodo(todo) {
